@@ -104,7 +104,15 @@ funcion encontrado=buscarEnArregloCaracterQueNoExista(datoABuscar, tamanoArreglo
 	FinSi
 FinFuncion
 
-
+//potenciar un numero
+funcion potencia = potenciarUnNumero(n)
+	definir potencia Como Real
+	segun n
+		0:factorial=1
+		De Otro Modo:
+			factorial= 2*potenciarUnNumero(n-1)
+	FinSegun
+FinFuncion
 
 Algoritmo Funciones_O_Modulos_Utilitarios
 	
